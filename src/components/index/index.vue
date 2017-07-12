@@ -1,114 +1,103 @@
 <template>
-    <div class="header">
-      <div class="header-fix">
-        <div class="header-icon">
-          <div class="all-goods"></div>
+      <div class="header">
+        <div class="header-fix">
+          <div class="header-icon">
+            <router-link to="/allgoods"><div class="all-goods"></div></router-link>
+          </div>
+          <div class="header-nav">
+            <ul>
+              <li class="bottom-bar">
+                <router-link to="/index">首页</router-link>
+                <router-view></router-view>
+              </li>
+              <li>
+                <router-link to="/index">新品</router-link>
+                <router-view></router-view>
+              </li>
+              <li><a href="#">家务</a></li>
+              <li><a href="#">下厨</a></li>
+              <li><a href="#">家居服</a></li>
+              <li><a href="#">家居服</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="header-nav">
-          <ul>
-            <li class="bottom-bar">
-              <router-link to="/index">首页</router-link>
-              <router-view></router-view>
-            </li>
-            <li>
-              <router-link to="/index/new">新品</router-link>
-              <router-view></router-view>
-            </li>
-            <li><a href="#">家务</a></li>
-            <li><a href="#">下厨</a></li>
-            <li><a href="#">家居服</a></li>
-            <li><a href="#">家居服</a></li>
-          </ul>
-        </div>
+          <div class="item-baner">
+            <mt-swipe :auto="3000">
+              <mt-swipe-item>
+                <router-link to="/goods-logo1">
+                  <img src="./09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg" alt="">
+                </router-link>
+              </mt-swipe-item>
+              <mt-swipe-item>
+                <router-link to="/goods-logo1">
+                <img src="./e234e5b64ab1456c9345dc8a4d604fb2_d1242x0.jpg" alt="">
+                </router-link>
+              </mt-swipe-item>
+              <mt-swipe-item>
+                <router-link to="/goods-logo1">
+                <img src="./924590309cb749fabf810a832a402984_d1242x0.jpg" alt="">
+                </router-link>
+              </mt-swipe-item>
+            </mt-swipe>
+          </div>
+          <div class="item-combo">
+            <div class="combo-title"></div>
+            <div class="img-wrap">
+              <img src="./b6b9a0221e3b47b7a92b36201272f9e6_d1242x0.jpg" border="0" usemap="#sale" alt="3d" />
+              <map name="sale" id="sale">
+              <area shape="rect" coords="0,0,122,80" href="http://localhost:8082/#/sale" alt="sale" target="_self">
+              <area shape="rect" coords="250,0,372,80" href="http://localhost:8082/#/sale" alt="sale" target="_self">
+              </map>
+            </div>
+          </div>
+          <div class="item-combo">
+            <div class="combo-title"></div>
+            <div class="img-wrap">
+              <img style="height: 150px;" src="./9518bc17021a40d28bffa8eb521f6878_d1242x0.jpg">
+            </div>
+          </div>
+          <div class="item-combo">
+            <div class="combo-title"></div>
+            <div class="img-wrap">
+              <img style="height: 925px;" src="./c8d8ca2a7c6b468f95faefd8eb3959c1_d1242x0.jpg">
+            </div>
+          </div>
+          <div class="item-combo">
+            <div class="combo-title"></div>
+            <div class="img-wrap">
+              <img style="height: 238px;" src="./7d75b0fe2e8244bdbad79f4b39f8b62f_d1242x0.jpg">
+            </div>
+          </div>
+          <div class="item-combo">
+            <div class="combo-title"></div>
+            <div class="img-wrap">
+              <img style="height: 310px;" src="./3cea975b99f9458198e9ed706af9b391_d1242x0.jpg">
+            </div>
+          </div>
+          <div class="item-combo">
+            <div class="combo-title"></div>
+            <div class="img-wrap">
+              <img style="height: 100px;" src="./fdbd35036c1c485b975a85ff7572708b_d1242x0.jpg">
+            </div>
+          </div>
+          <div class="item-combo">
+            <div class="combo-title"></div>
+            <div class="img-wrap">
+              <img style="height: 689px;" src="./3da3d66f3c934a1285dd686cb28a1c90_d1242x0.jpg">
+            </div>
+          </div>
+          <div class="item-combo">
+            <div class="combo-title"></div>
+            <div class="img-wrap">
+              <img style="height: 689px;" src="./27eey4le8sbcjfa25cfoyi49xv66u4kb.png">
+            </div>
+          </div>
       </div>
-      <div class="item-baner">
-        <ul>
-          <li>
-            <a href="#"><img src="./09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./e234e5b64ab1456c9345dc8a4d604fb2_d1242x0.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./924590309cb749fabf810a832a402984_d1242x0.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./e0f30fd934134d28ad9c5c45f96c7045_d1242x0.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./85f5aea681ab4e98b72f1d59b9a5b073_d1242x0.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./b074f4f091d44569acdd9d001cd4e0b5_d1242x0.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./a33813da3f924276a6cff34312ad587d_d1242x0.jpg"></a>
-          </li>
-          <li>
-            <a href="#"><img src="./dd0e77b30b7a4457ad4bff10a5ef028e_d1242x0.jpg"></a>
-          </li>
-        </ul>
-      </div>
-
-        <div class="item-combo">
-          <div class="combo-title"></div>
-          <div class="img-wrap">
-            <img src="./b6b9a0221e3b47b7a92b36201272f9e6_d1242x0.jpg">
-          </div>
-        </div>
-        <div class="item-combo">
-          <div class="combo-title"></div>
-          <div class="img-wrap">
-            <img style="height: 150px;" src="./9518bc17021a40d28bffa8eb521f6878_d1242x0.jpg">
-          </div>
-        </div>
-        <div class="item-combo">
-          <div class="combo-title"></div>
-          <div class="img-wrap">
-            <img style="height: 925px;" src="./c8d8ca2a7c6b468f95faefd8eb3959c1_d1242x0.jpg">
-          </div>
-        </div>
-        <div class="item-combo">
-          <div class="combo-title"></div>
-          <div class="img-wrap">
-            <img style="height: 238px;" src="./7d75b0fe2e8244bdbad79f4b39f8b62f_d1242x0.jpg">
-          </div>
-        </div>
-        <div class="item-combo">
-          <div class="combo-title"></div>
-          <div class="img-wrap">
-            <img style="height: 310px;" src="./3cea975b99f9458198e9ed706af9b391_d1242x0.jpg">
-          </div>
-        </div>
-        <div class="item-combo">
-          <div class="combo-title"></div>
-          <div class="img-wrap">
-            <img style="height: 100px;" src="./fdbd35036c1c485b975a85ff7572708b_d1242x0.jpg">
-          </div>
-        </div>
-        <div class="item-combo">
-          <div class="combo-title"></div>
-          <div class="img-wrap">
-            <img style="height: 689px;" src="./3da3d66f3c934a1285dd686cb28a1c90_d1242x0.jpg">
-          </div>
-        </div>
-        <div class="item-combo">
-          <div class="combo-title"></div>
-          <div class="img-wrap">
-            <img style="height: 689px;" src="./27eey4le8sbcjfa25cfoyi49xv66u4kb.png">
-          </div>
-        </div>
-    </div>
 </template>
 
 <script>
   import { Swipe, SwipeItem } from 'mint-ui';
     export default {
-      'mt-swipe': Swipe,
-      'mt-swipe-item': SwipeItem
     }
 </script>
 
@@ -117,11 +106,13 @@
     height: 96px
     width:100%;
     position: relative
+    z-index 999
     .header-fix
       position: fixed;
       top:0
       right:0
       left:0
+      z-index 999
       .header-icon
         height: 48px
         width: 100%
@@ -157,11 +148,17 @@
           line-height: 3.8rem
           height: 3.8rem
           background-color #fff
+
     .item-baner
       padding-top: 96px
       height: 250px
-      overflow hidden
-      ul
+      width:100%;
+      .mint-swipe-item
+        img
+          width:100%;
+
+      /*overflow hidden*/
+      /*ul
         height:100%
         width: 3375px
         li
@@ -170,7 +167,7 @@
           a
             img
               width: 375px
-              height:100%
+              height:100%*/
     .item-combo
       margin-bottom 1rem
       .img-wrap

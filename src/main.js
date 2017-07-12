@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router/index'
-import Mint from 'mint-ui'
-Vue.use(Mint)
+import VueScroller from 'vue-scroller'
+import 'mint-ui/lib/style.css'
 /* eslint-disable no-new */
+Vue.use(VueScroller)
 new Vue({
   el: '#app',
   router,

@@ -4,13 +4,13 @@
       <div class="tab">
         <div class="tab-item">
           <router-link to="/index">
-            <div class="icon-home"></div>
+            <div class="icon-home icon1"></div>
             <span>首页</span>
           </router-link>
         </div>
         <div class="tab-item">
           <router-link to="/allgoods">
-            <div class="icon-lis"></div>
+            <div class="icon-lis icon2"></div>
             <span>全部产品</span>
           </router-link>
         </div>
@@ -41,11 +41,11 @@
 <script>
 
 export default {
+
 }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-
     .tab
       position fixed
       bottom:0;
@@ -53,6 +53,7 @@ export default {
       right 0
       height: 55px;
       line-height: 55px
+      z-index 999
       display: flex
       background-color #F8F8F8
       .tab-item
