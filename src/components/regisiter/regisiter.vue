@@ -2,9 +2,11 @@
   <div>
     <div class="user-login-wrap">
       <div class="old_user_login">
-        <label class="top-back" onclick="history.back()">
-          <div class="top-border"></div>
-        </label>
+        <router-link to="/usercontre">
+          <label class="top-back">
+            <div class="top-border"></div>
+          </label>
+        </router-link>
         <img src="../img/jti9h2mpjt5dqzys5mww3z5mxexorgu0.png" class="top-logo">
       </div>
       <div class="bg-wrap">
@@ -43,7 +45,10 @@
           </div>
         </div>
         <input type="button" class="btn-login" value="注册">
-        <input type="button" class="btn-regisiter" value="登录">
+        <router-link to="/login" class="sign">
+          <input type="button" class="btn-regisiter" value="登录">
+        </router-link>
+
       </div>
     </div>
   </div>

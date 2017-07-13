@@ -3,7 +3,6 @@
       <div class="hangout-fix">
         <div class="header-content">闲逛</div>
       </div>
-      <scroller>
         <div class="stroll-all-item">
           <div class="stroll-item">
             <div class="stroll-type-item">
@@ -39,14 +38,14 @@
             <div class="stroll-type-item">
               <div class="stroll-item-layer">
                 <img class="stroll-item-img" src="../img/e726ff1fb1d44685a91cf76ff56d5018.jpg" alt="">
-                <span class="tag-new"></span>
+                <span class="tag-new">new</span>
               </div>
               <h3 class="stroll-item-title">
                 <a href="javascript:void(0);">大容量防潮除湿桶(可重复使用)</a>
               </h3>
               <div class="stroll-price-bar">
                 <span class="price">¥19</span>
-                <span class="comment">月销 11067</span>
+                <span class="comment">月销 110</span>
               </div>
             </div>
           </div>
@@ -54,7 +53,7 @@
             <div class="stroll-type-item">
               <div class="stroll-item-layer">
                 <img class="stroll-item-img" src="../img/e726ff1fb1d44685a91cf76ff56d5018.jpg" alt="">
-                <span class="tag-new"></span>
+                <span class="tag-new">new</span>
               </div>
               <h3 class="stroll-item-title">
                 <a href="javascript:void(0);">精梳棉护肤毛巾(莎曼系列)</a>
@@ -90,7 +89,7 @@
                 <a href="javascript:void(0);">超强韧飞机轮旅行箱(摩洛哥)</a>
               </h3>
               <div class="stroll-price-bar">
-                <span class="price">¥339</span>
+                <span class="price">¥33</span>
                 <span class="comment">月销 1181</span>
               </div>
             </div>
@@ -99,7 +98,7 @@
             <div class="stroll-type-item">
               <div class="stroll-item-layer">
                 <img class="stroll-item-img" src="../img/e726ff1fb1d44685a91cf76ff56d5018.jpg" alt="">
-                <span class="tag-new"></span>
+                <span class="tag-new">new</span>
               </div>
               <h3 class="stroll-item-title">
                 <a href="javascript:void(0);">时尚舒适休闲拖鞋</a>
@@ -120,7 +119,7 @@
                 <a href="javascript:void(0);">白领飞机轮旅行箱(威尼斯)</a>
               </h3>
               <div class="stroll-price-bar">
-                <span class="price">¥329</span>
+                <span class="price">¥39</span>
                 <span class="comment">月销 1075</span>
               </div>
             </div>
@@ -162,14 +161,14 @@
             <div class="stroll-type-item">
               <div class="stroll-item-layer">
                 <img class="stroll-item-img" src="../img/e726ff1fb1d44685a91cf76ff56d5018.jpg" alt="">
-                <span class="tag-new"></span>
+                <span class="tag-new">new</span>
               </div>
               <h3 class="stroll-item-title">
                 <a href="javascript:void(0);">大容量防潮除湿桶(可重复使用)</a>
               </h3>
               <div class="stroll-price-bar">
                 <span class="price">¥19</span>
-                <span class="comment">月销 11067</span>
+                <span class="comment">月销 1106</span>
               </div>
             </div>
           </div>
@@ -177,7 +176,7 @@
             <div class="stroll-type-item">
               <div class="stroll-item-layer">
                 <img class="stroll-item-img" src="../img/e726ff1fb1d44685a91cf76ff56d5018.jpg" alt="">
-                <span class="tag-new"></span>
+                <span class="tag-new">new</span>
               </div>
               <h3 class="stroll-item-title">
                 <a href="javascript:void(0);">精梳棉护肤毛巾(莎曼系列)</a>
@@ -213,7 +212,7 @@
                 <a href="javascript:void(0);">超强韧飞机轮旅行箱(摩洛哥)</a>
               </h3>
               <div class="stroll-price-bar">
-                <span class="price">¥339</span>
+                <span class="price">¥33</span>
                 <span class="comment">月销 1181</span>
               </div>
             </div>
@@ -222,7 +221,7 @@
             <div class="stroll-type-item">
               <div class="stroll-item-layer">
                 <img class="stroll-item-img" src="../img/e726ff1fb1d44685a91cf76ff56d5018.jpg" alt="">
-                <span class="tag-new"></span>
+                <span class="tag-new">new</span>
               </div>
               <h3 class="stroll-item-title">
                 <a href="javascript:void(0);">时尚舒适休闲拖鞋</a>
@@ -243,13 +242,12 @@
                 <a href="javascript:void(0);">白领飞机轮旅行箱(威尼斯)</a>
               </h3>
               <div class="stroll-price-bar">
-                <span class="price">¥329</span>
+                <span class="price">¥32</span>
                 <span class="comment">月销 1075</span>
               </div>
             </div>
           </div>
         </div>
-      </scroller>
     </div>
 </template>
 

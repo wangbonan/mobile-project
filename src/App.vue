@@ -1,13 +1,14 @@
 <template>
   <div class="app">
-      <router-view></router-view>
-      <div class="tab">
+    <router-view></router-view>
+    <div class="tab">
         <div class="tab-item">
-          <router-link to="/index">
+          <router-link to="/home/index">
             <div class="icon-home icon1"></div>
             <span>首页</span>
           </router-link>
         </div>
+
         <div class="tab-item">
           <router-link to="/allgoods">
             <div class="icon-lis icon2"></div>
@@ -33,19 +34,17 @@
           </router-link>
         </div>
       </div>
-
   </div>
 
 </template>
 
 <script>
-
 export default {
-
 }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  .app
     .tab
       position fixed
       bottom:0;
@@ -68,15 +67,15 @@ export default {
           background-position 50%
           background-repeat no-repeat
         .icon-home
-          background-image url(./components/index/27eey4le8sbcjfa25cfoyi49xv66u4kb.png)
+          background-image url(./components/home/27eey4le8sbcjfa25cfoyi49xv66u4kb.png)
         .user
-          background-image url(./components/index/hz52laruwzyaq3bwqqo0ga2gov8f4tmz.png)
+          background-image url(./components/home/hz52laruwzyaq3bwqqo0ga2gov8f4tmz.png)
         .shop
-          background-image url(./components/index/chzjh6f5u3b64j8edwibb51c8ourdtb3.png)
+          background-image url(./components/home/chzjh6f5u3b64j8edwibb51c8ourdtb3.png)
         .icon-hang
-          background-image url(./components/index/psm7tidk7hhp9h4g7dupgwhw3ohzzc5p.png)
+          background-image url(./components/home/psm7tidk7hhp9h4g7dupgwhw3ohzzc5p.png)
         .icon-lis
-          background-image url(./components/index/h3gp05ivmehqpqcyxf8cf3apic3evnpp.png)
+          background-image url(./components/home/h3gp05ivmehqpqcyxf8cf3apic3evnpp.png)
         span
           display: block
           height: 15px;
@@ -85,4 +84,7 @@ export default {
           margin-top -25px
       .active
         color green
+
 </style>
+
+
