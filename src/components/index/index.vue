@@ -17,6 +17,26 @@
             <img src="../home/924590309cb749fabf810a832a402984_d1242x0.jpg" alt="">
           </router-link>
         </mt-swipe-item>
+        <mt-swipe-item>
+          <router-link to="/goods-logo1">
+            <img src="../home/09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg" alt="">
+          </router-link>
+        </mt-swipe-item>
+        <mt-swipe-item>
+          <router-link to="/goods-logo1">
+            <img src="../home/e234e5b64ab1456c9345dc8a4d604fb2_d1242x0.jpg" alt="">
+          </router-link>
+        </mt-swipe-item>
+        <mt-swipe-item>
+          <router-link to="/goods-logo1">
+            <img src="../home/924590309cb749fabf810a832a402984_d1242x0.jpg" alt="">
+          </router-link>
+        </mt-swipe-item>
+        <mt-swipe-item>
+          <router-link to="/goods-logo1">
+            <img src="../home/09c6c6a15c2d48d19a03b473a7c3764a_d1242x0.jpg" alt="">
+          </router-link>
+        </mt-swipe-item>
       </mt-swipe>
     </div>
     <div class="item-combo">

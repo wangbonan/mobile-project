@@ -89,6 +89,7 @@
           position: absolute
           right  0
       .header-nav
+        background: #fff;
         height: 48px
         ul
           width: 800px;

@@ -215,6 +215,7 @@
         .goods-block
           margin-bottom 50px
           .goods-icon
+            margin: 0 auto;
             border: 1px solid #ddd
             display: block
             height: 163.3px;
