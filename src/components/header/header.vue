@@ -13,10 +13,10 @@
                 <router-link to="/home/news">新品</router-link>
               </li>
               <li>
-                <router-link to="/home/news">家务</router-link>
+                <router-link to="/home/housework">家务</router-link>
               </li>
               <li>
-                <router-link to="index/news">下厨</router-link>
+                <router-link to="/home/cook">下厨</router-link>
               </li>
               <li>
                 <router-link to="index/news">家居服</router-link>
@@ -100,12 +100,13 @@
             box-sizing border-box
             text-align center
           .bottom-bar
-            background-color #80B532
-        a
-          font-size 1.35rem
-          display: block
-          line-height: 3.8rem
-          height: 3.8rem
-          background-color #fff
+          a
+            font-size 1.35rem
+            display: block
+            line-height: 3.8rem
+            height: 3.8rem
+          .active
+            color: #80B532
+            border-bottom 2px solid #80B532
 </style>
 

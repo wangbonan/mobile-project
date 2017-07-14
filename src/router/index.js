@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import home from '../components/home/home.vue'
 import index from '../components/index/index.vue'
 import allgoods from '../components/allgoods/allgoods.vue'
+import cook from '../components/cook/cook.vue'
+import housework from '../components/housework/housework.vue'
 import hangout from '../components/hangout/hangout.vue'
 import shopcart from '../components/shopcart/shopcart.vue'
 import usercontre from '../components/usercontre/usercontre.vue'
@@ -72,6 +74,14 @@ export default new VueRouter({
         {
           path: 'news',
           component: news
+        },
+        {
+          path: 'housework',
+          component: housework
+        },
+        {
+          path: 'cook',
+          component: cook
         }
       ]
     },

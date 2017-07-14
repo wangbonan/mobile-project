@@ -2,7 +2,7 @@
     <div>
       <div class="shop-cart">
         <div class="shop-cart-content">
-          <router-link to="/index">
+          <router-link to="/home">
             <span class="btn-back">
             <label class="leftback-img"></label>
           </span>
@@ -57,68 +57,107 @@
           <div class="carts-link">
             <router-link to="/index">赶紧去逛逛</router-link>
           </div>
-          <div class="wrap-cart-assem">
-            <div class="cart-assem-title">
-              <p>Rico.S为你精心推荐</p>
+        </div>
+        <div class="add-goods-wrap">
+          <div class="goods-list-wrap">
+            <div class="goods-list">
+              <div class="tick" style="display: inline-block;">
+                <div class="select-wrap select"></div>
+              </div>
+
+              <div class="good-icon" style="display: inline-block;">
+                <img src="http://i.lifevccdn.com/upload/AppItemExhibit/89556cdd38bb47fa9af68dbbeff97845.jpg">
+              </div>
+              <div class="dsc" style="display: inline-block;">
+                <div class="p1">
+                  <router-link class="good-name" to="">耐高温玻璃饭盒</router-link>
+                  <span class="item-price">¥ 15</span>
+                </div>
+                <div class="p2">
+                  <span class="special">分隔式,绿色</span>
+                </div>
+                <div class="hot-and-count">
+                  <span class="hot">限时体验价</span>
+                  <span class="good-count">× 1</span>
+                </div>
+              </div>
             </div>
-            <div class="cart-assem-list">
-              <ul>
-                <li>
-                  <div class="cart-assem-item">
-                    <a href="javascript:void(0);">
-                      <img src="../img/D1610291615001555_d230x230.jpg">
-                    </a>
-                    <p class="title">自粘式缝隙贴(2卷装)</p>
-                    <p class="price">￥19</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="cart-assem-item">
-                    <a href="javascript:void(0);">
-                      <img src="../img/D1610291615001555_d230x230.jpg">
-                    </a>
-                    <p class="title">自粘式缝隙贴(2卷装)</p>
-                    <p class="price">￥19</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="cart-assem-item">
-                    <a href="javascript:void(0);">
-                      <img src="../img/D1610291615001555_d230x230.jpg">
-                    </a>
-                    <p class="title">自粘式缝隙贴(2卷装)</p>
-                    <p class="price">￥19</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="cart-assem-item">
-                    <a href="javascript:void(0);">
-                      <img src="../img/D1610291615001555_d230x230.jpg">
-                    </a>
-                    <p class="title">自粘式缝隙贴(2卷装)</p>
-                    <p class="price">￥19</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="cart-assem-item">
-                    <a href="javascript:void(0);">
-                      <img src="../img/D1610291615001555_d230x230.jpg">
-                    </a>
-                    <p class="title">自粘式缝隙贴(2卷装)</p>
-                    <p class="price">￥19</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="cart-assem-item">
-                    <a href="javascript:void(0);">
-                      <img src="../img/D1610291615001555_d230x230.jpg">
-                    </a>
-                    <p class="title">自粘式缝隙贴(2卷装)</p>
-                    <p class="price">￥19</p>
-                  </div>
-                </li>
-              </ul>
+          </div>
+          <div class="post-to-wrap">
+            <div class="address-wrap">
+              <span class="post-to">送至 : </span>
+              <span class="address">上海</span>
             </div>
+            <div class="content-wrap">
+              <div class="d1">上海 ¥99包邮</div>
+              <div class="tip">你还差
+              <span class="price-spread">¥ 65</span>
+                即可享受<span>免运费</span>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap-cart-assem">
+          <div class="cart-assem-title">
+            <p>Rico.S为你精心推荐</p>
+          </div>
+          <div class="cart-assem-list">
+            <ul>
+              <li>
+                <div class="cart-assem-item">
+                  <a href="javascript:void(0);">
+                    <img src="../img/D1610291615001555_d230x230.jpg">
+                  </a>
+                  <p class="title">自粘式缝隙贴(2卷装)</p>
+                  <p class="price">￥19</p>
+                </div>
+              </li>
+              <li>
+                <div class="cart-assem-item">
+                  <a href="javascript:void(0);">
+                    <img src="../img/D1610291615001555_d230x230.jpg">
+                  </a>
+                  <p class="title">自粘式缝隙贴(2卷装)</p>
+                  <p class="price">￥19</p>
+                </div>
+              </li>
+              <li>
+                <div class="cart-assem-item">
+                  <a href="javascript:void(0);">
+                    <img src="../img/D1610291615001555_d230x230.jpg">
+                  </a>
+                  <p class="title">自粘式缝隙贴(2卷装)</p>
+                  <p class="price">￥19</p>
+                </div>
+              </li>
+              <li>
+                <div class="cart-assem-item">
+                  <a href="javascript:void(0);">
+                    <img src="../img/D1610291615001555_d230x230.jpg">
+                  </a>
+                  <p class="title">自粘式缝隙贴(2卷装)</p>
+                  <p class="price">￥19</p>
+                </div>
+              </li>
+              <li>
+                <div class="cart-assem-item">
+                  <a href="javascript:void(0);">
+                    <img src="../img/D1610291615001555_d230x230.jpg">
+                  </a>
+                  <p class="title">自粘式缝隙贴(2卷装)</p>
+                  <p class="price">￥19</p>
+                </div>
+              </li>
+              <li>
+                <div class="cart-assem-item">
+                  <a href="javascript:void(0);">
+                    <img src="../img/D1610291615001555_d230x230.jpg">
+                  </a>
+                  <p class="title">自粘式缝隙贴(2卷装)</p>
+                  <p class="price">￥19</p>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -146,8 +185,8 @@
       margin: 0 auto
       .btn-back
         position: absolute;
-        left:0
-        top:0
+        left: 10px
+        top: 4px
         width:10%;
         height: 3.8rem;
         z-index:100;
@@ -249,6 +288,7 @@
   .wrap-content
     margin-top: 152.17px
     .wrap-nodata
+      display: none
       color: #2e2e2e;
       background-color: #F2F2F2;
       .carts-img
@@ -278,66 +318,66 @@
           letter-spacing: 1px;
           margin-top: 6px;
           color: rgb(137, 190, 72);
-      .wrap-cart-assem
-        position: fixed;
-        bottom: 4rem;
-        width: 100%;
-        min-width: 320px;
-        max-width: 640px;
+    .wrap-cart-assem
+      position: fixed;
+      bottom: 4rem;
+      width: 100%;
+      min-width: 320px;
+      max-width: 640px;
+      overflow: hidden;
+      background-color: #fff;
+      border-bottom: 1px solid #f2f2f2;
+      margin: 1rem auto 0;
+      .cart-assem-title
+        width: 94%;
         overflow: hidden;
-        background-color: #fff;
-        border-bottom: 1px solid #f2f2f2;
-        margin: 1rem auto 0;
-        .cart-assem-title
-          width: 94%;
-          overflow: hidden;
-          border-bottom: 1px solid #ccc;
-          text-align: left;
-          font-size: 1.6rem;
-          color: #333;
-          line-height: 2rem;
-          margin: 0 auto;
-          padding: .8rem 3%;
-          P
-            line-height: 1.5em;
-        .cart-assem-list
-          width: 100%;
-          max-height: 12rem;
-          overflow-y: hidden;
-          overflow-x: scroll;
-          margin: 0 auto;
-          padding: 1.3rem 0;
-          ul
-            width:1000px;
-            li
-              margin: 0 5px;
-              width: 8rem;
-              float: left
-              overflow: hidden;
-              display: inline-block;
-              vertical-align: top;
-              text-align: left;
-              .cart-assem-item
-                a
-                  text-decoration none
-                  color: #333
-                  img
-                    width: 96px;
-                    height: 96px;
-                    overflow: hidden;
-                    display: block;
-                p
-                  width: 100%;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+        font-size: 1.6rem;
+        color: #333;
+        line-height: 2rem;
+        margin: 0 auto;
+        padding: .8rem 3%;
+        P
+          line-height: 1.5em;
+      .cart-assem-list
+        width: 100%;
+        max-height: 12rem;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        margin: 0 auto;
+        padding: 1.3rem 0;
+        ul
+          width:1000px;
+          li
+            margin: 0 5px;
+            width: 8rem;
+            float: left
+            overflow: hidden;
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+            .cart-assem-item
+              a
+                text-decoration none
+                color: #333
+                img
+                  width: 96px;
+                  height: 96px;
                   overflow: hidden;
                   display: block;
-                  text-align: left;
-                  font-size: 1rem;
-                  color: #333;
-                  line-height: 2rem;
-                  font-weight: 400;
-                  text-overflow: ellipsis;
-                  white-space: nowrap;
-                  word-break: keep-all;
+              p
+                width: 100%;
+                overflow: hidden;
+                display: block;
+                text-align: left;
+                font-size: 1rem;
+                color: #333;
+                line-height: 2rem;
+                font-weight: 400;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                word-break: keep-all;
     .cart-panel
       display: none
       width: 100%;
@@ -468,5 +508,105 @@
           font-size: 1.2rem;
           line-height: 1.2rem;
           padding: 0;
+    .add-goods-wrap
+      .goods-list-wrap
+        padding-bottom 30px
+        .goods-list
+          padding-top 10px
+          width:100%;
+          .tick
+            display: inline
+            position: relative;
+            width: 46px
+            height: 63px
+            .select-wrap
+              display inline-block
+              //border 1px solid #000
+              border-radius 50%
+              position: absolute;
+              left: 25%;
+              top: 35%;
+              min-width: 19px
+              min-height: 19px
+              background-color #80B532
+              &:after
+                content: "";
+                width: 11px;
+                height: 5px;
+                display: block;
+                border-bottom: 2px solid #fafafa;
+                border-left: 2px solid #fafafa;
+                font-size: 0;
+                line-height: 0;
+                position: absolute;
+                left: 3px;
+                top: 4px;
+                transform: rotate(-45deg);
+          .good-icon
+            img
+              width: 75px;
+              height: 75px
+          .dsc
+            position: absolute
+            margin-left: 10px
+            height:100px;
+            .p1
+              width: 230px;
+              .good-name
+                font-size: 1.5rem;
+                color: #4a4a4a;
+                text-align left
+                letter-spacing 1px
+              .item-price
+                float: right
+                font-size 1.35rem
+            .p2
+              .special
+                max-width: 70%;
+                display: inline-block;
+                text-align: left;
+                font-size: 13px;
+                color: #9b9b9b;
+                line-height: 20px;
+                padding: 10px 0
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            .hot-and-count
+              font-size: 1rem
+              .hot
+                border 1px solid red
+                color red
+                padding: 2px
+              .good-count
+                float: right
+      .post-to-wrap
+        border: 1px solid #ededed
+        padding 10px 0
+        .address-wrap
+          display: inline-block
+          text-align center
+          float: left;
+          height: 50px;
+          line-height: 25px;
+          margin: 0 10px;
+          .post-to
+            float: left
+            margin-right 3px
+          .address
+            border: 1px solid #ddd
+            float: left
+            width: 50px;
+            text-align: left;
+        .content-wrap
+          .d1
+            display: inline-block
+            width:60%;
+            margin-bottom 8px
+          .tip
+            display: inline-block
+          span
+            color red
+
+
 </style>
 
